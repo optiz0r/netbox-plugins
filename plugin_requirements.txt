@@ -1,4 +1,5 @@
 markupsafe==2.0.1
+napalm-ros
 netbox_bgp
 -e git+https://github.com/gardunha/netbox-routeros.git@2adc884b8d356fa66b01afeacb137baef6909ad1#egg=netbox_routeros
 netbox-ipcalculator
