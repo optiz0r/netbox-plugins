@@ -3,7 +3,7 @@ name: Netbox with plugins
 on:
   push:
     branches:
-      - master
+      - main
     paths:
       - 'Dockerfile'
       - '.github/workflows/**'
