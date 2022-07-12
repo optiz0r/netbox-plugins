@@ -1,4 +1,4 @@
-FROM netboxcommunity/netbox:v3.2.5-ldap
+FROM netboxcommunity/netbox:v3.2.6-ldap
 
 RUN apk add --update-cache git && \
     rm -rf /var/cache/apk/*
