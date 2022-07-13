@@ -1,6 +1,6 @@
 FROM netboxcommunity/netbox:v3.2.6
 
-RUN apt-get update && apt install git && \
+RUN apt-get update && apt install -y git && \
     rm -rf /var/lib/apt/lists/*
 
 COPY ./plugin_requirements.txt /
