@@ -1,4 +1,4 @@
-FROM netboxcommunity/netbox:v3.2.6
+FROM netboxcommunity/netbox:v3.2.7
 
 RUN apt-get update && apt install -y git && \
     rm -rf /var/lib/apt/lists/*
