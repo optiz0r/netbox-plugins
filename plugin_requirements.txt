@@ -1,4 +1,4 @@
-markupsafe==2.0.1
+markupsafe==2.1.2
 napalm-ros
 netbox_bgp
 -e git+https://github.com/optiz0r/netbox-routeros.git@main#egg=netbox_routeros
