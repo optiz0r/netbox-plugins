@@ -1,7 +1,7 @@
 markupsafe
 napalm-ros
 netbox_bgp
--e git+https://github.com/optiz0r/netbox-routeros.git@main#egg=netbox_routeros
+#-e git+https://github.com/optiz0r/netbox-routeros.git@main#egg=netbox_routeros
 netbox-ipcalculator
 netbox-topology-views
 routeros-diff
