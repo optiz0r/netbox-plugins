@@ -1,12 +1,21 @@
 {
   "extends": [
-    "config:base",
+    "config:recommended",
     "docker:enableMajor"
   ],
-  "ignoreDeps": ["marksafe"],
-  "packageRules": [{
-    "updateTypes": ["minor", "patch", "pin", "digest"],
-    "automerge": true
-  }],
-  "requiredStatusChecks": null
+  "ignoreDeps": [
+    "marksafe"
+  ],
+  "packageRules": [
+    {
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "pin",
+        "digest"
+      ],
+      "automerge": true
+    }
+  ],
+  "ignoreTests": true
 }
