@@ -4,7 +4,8 @@
     "docker:enableMajor"
   ],
   "ignoreDeps": [
-    "marksafe"
+    "marksafe",
+    "netbox_bgp"
   ],
   "packageRules": [
     {
