@@ -1,4 +1,4 @@
-FROM netboxcommunity/netbox:v4.5.0-3.4.2
+FROM netboxcommunity/netbox:v4.5.1-3.4.2
 
 RUN apt-get update && apt install -y git && \
     rm -rf /var/lib/apt/lists/*
